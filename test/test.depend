@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1658147477 source:d:\uovt\c++\test\main.cpp
+	<iostream>
+	<iomanip>
+
