@@ -3,12 +3,22 @@
 
 using namespace std;
 
+void printNumber(int *numberptr){
+    cout<<*numberptr<<endl;
+}
+
+void printLetter(char *letterptr){
+    cout<<*letterptr<<endl;
+}
+
 int main()
 {
     int a=5;
-    int *ptr=&a;
-    cout << *ptr << endl;
-    *ptr=10;
-    cout<<*ptr;
+    printNumber(&a);
+
+    string b='A';
+    printLetter(&b);
+
+
     return 0;
 }
